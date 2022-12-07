@@ -1,0 +1,9 @@
+[Unit]
+Description=Buildbot
+
+[Service]
+ExecStart=/home/andreas_neumeier_org/buildbot/buildbot.sh
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
