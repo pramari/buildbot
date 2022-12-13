@@ -1,4 +1,4 @@
-Unit]
+[Unit]
 Description=BuildBot master service
 After=network.target
 
